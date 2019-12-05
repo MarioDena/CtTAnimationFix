@@ -29,7 +29,7 @@ namespace BetterCombat.Patches.Vanilla.AttackOfOpportunity
                 attackHandInfo.CreateAnimationHandleForAttack();
                 if (attackHandInfo.AnimationHandle != null)
                 {
-                    attackHandInfo.AnimationHandle.SpeedScale = 1.5f;
+                    attackHandInfo.AnimationHandle.SpeedScale = 1.8f;
                     __instance.Executor.LookAt(__instance.Target.Position);
                     __instance.Executor.View.AnimationManager.ExecuteIfIdle(attackHandInfo.AnimationHandle);
                 }
